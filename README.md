@@ -1,6 +1,3 @@
-Here's a simple and editable README file for your landing page project:
-
----
 
 # Landing Page Project
 
@@ -48,10 +45,3 @@ This project is designed to practice and enhance your HTML and CSS skills. It in
 
 Feel free to fork this repository, make changes, and submit a pull request. Contributions are always welcome!
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
-You can easily edit the text to reflect any specific details you want to add or modify. Let me know if you need help adjusting anything!
