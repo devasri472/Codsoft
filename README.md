@@ -10,38 +10,5 @@ This project is designed to practice and enhance your HTML and CSS skills. It in
 - Work with alignment, padding, and color schemes.
 - Apply basic web design concepts to create a user-friendly experience.
 
-## Features
 
-- Header and footer sections.
-- Responsive layout.
-- Basic use of HTML tags for content.
-- Simple but effective CSS for styling.
-- Aesthetic design with a consistent color palette.
-
-## Technologies Used
-
-- **HTML**: Structure and content of the landing page.
-- **CSS**: Styling and layout adjustments.
-- **Responsive Design**: Using media queries for mobile responsiveness (optional).
-
-## Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/devasri472/Codsoft/LandingPage.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Codsoft
-   ```
-3. Open `index.html` in your browser to view the landing page.
-
-## Usage
-
-- Edit the content and style by modifying the `index.html` and `styles.css` files.
-- Customize the design to fit your preferences by adjusting the CSS properties.
-  
-## Contributing
-
-Feel free to fork this repository, make changes, and submit a pull request. Contributions are always welcome!
 
