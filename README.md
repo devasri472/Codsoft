@@ -11,4 +11,17 @@ This project is designed to practice and enhance your HTML and CSS skills. It in
 - Apply basic web design concepts to create a user-friendly experience.
 
 
+# Basic Calculator Project
+
+## Description
+
+This project is designed to create a basic calculator using HTML, CSS, and JavaScript. It will help you practice handling user input, performing arithmetic operations, and displaying results interactively. You'll learn how to:
+
+- Build a functional calculator with buttons for addition, subtraction, multiplication, and division.
+- Implement a display screen to show the user’s input and calculated results.
+- Use JavaScript to perform calculations and update the display.
+- Organize the layout using CSS Grid for proper button alignment.
+
+
+
 
