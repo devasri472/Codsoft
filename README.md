@@ -10,6 +10,12 @@ This project is designed to practice and enhance your HTML and CSS skills. It in
 - Work with alignment, padding, and color schemes.
 - Apply basic web design concepts to create a user-friendly experience.
 
+# Personal Portfolio Project
+
+## Description
+
+This project involves creating a personal portfolio website using HTML and CSS. It provides a platform to showcase your skills, experience, and projects, making it an essential tool for web developers or anyone looking to present their work online. Through this project, you’ll learn how to structure and style different sections, such as About, Skills, Projects, and Contact, to create a professional and user-friendly portfolio.
+
 
 # Basic Calculator Project
 
