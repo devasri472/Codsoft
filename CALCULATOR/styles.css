@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #080808, #0c0c0c, #111);
+}
+
+.calculator {
+    width: 350px;
+    background: linear-gradient(145deg, #1b1b1b, #0f0f0f);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    text-align: center;
+    border: 2px solid cyan;
+}
+
+#display {
+    width: 100%;
+    height: 70px;
+    font-size: 32px;
+    text-align: right;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background: #000;
+    color: cyan;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: inset 0 0 12px rgba(0, 255, 255, 0.7);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+button {
+    width: 100%;
+    height: 65px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    text-shadow: 0 0 5px cyan;
+    background: linear-gradient(145deg, #222, #111);
+    box-shadow: 0 4px 12px rgba(0, 255, 255, 0.4);
+}
+
+button:hover {
+    background: cyan;
+    color: black;
+    box-shadow: 0 0 20px cyan;
+}
+
+.operator {
+    background: linear-gradient(145deg, #ff0077, #ff0055);
+    box-shadow: 0 4px 12px rgba(255, 0, 85, 0.5);
+}
+
+.operator:hover {
+    background: #ff0077;
+    box-shadow: 0 0 20px #ff0077;
+}
+
+.equals {
+    grid-column: span 2;
+    background: linear-gradient(145deg, #00ff00, #00cc00);
+    box-shadow: 0 4px 12px rgba(0, 255, 0, 0.5);
+}
+
+.equals:hover {
+    background: #00ff00;
+    box-shadow: 0 0 20px #00ff00;
+}
+
+button:nth-child(17) { /* Zero Button */
+    grid-column: span 2;
+}
+
+button:nth-child(18) { /* Decimal Button */
+    background: linear-gradient(145deg, #ffcc00, #ff9900);
+    box-shadow: 0 4px 12px rgba(255, 153, 0, 0.5);
+}
+
+button:nth-child(18):hover {
+    background: #ffcc00;
+    box-shadow: 0 0 20px #ffcc00;
+}
